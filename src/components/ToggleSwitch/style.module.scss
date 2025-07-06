@@ -1,0 +1,60 @@
+/* Estilo iOS */
+.container {
+  display: flex;
+  align-items: center;
+  margin: auto auto;
+  width: 120px;
+  justify-content: center;
+}
+
+.input {
+  visibility: hidden;
+  position: absolute;
+  margin-left: -9999px;
+}
+
+.input + label {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  outline: none;
+  user-select: none;
+}
+
+.input + label {
+  padding: 2px;
+  width: 60px;
+  height: 30px;
+ background-color: #dddddd;
+  border-radius: 60px;
+}
+
+.input + label:before,
+.input + label:after {
+  display: block;
+  position: absolute;
+  top: 1px;
+  left: -2px;
+  bottom: 1px;
+  content: "";
+}
+.input + label:before {
+  right: 1px;
+  background-color: #ff4772;
+  border-radius: 60px;
+  transition: 0.4s;
+
+}
+.input + label:after {
+  width: 30px;
+  background-color: #fff;
+  border-radius: 100%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  transition: all 0.4s;
+}
+.input:checked + label:before {
+  background-color: #4bd864;
+}
+.input:checked + label:after {
+  transform: translateX(35px);
+}

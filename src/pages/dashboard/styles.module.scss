@@ -1,0 +1,31 @@
+.dashboardContainer {
+  background-image: url("../../../public/ExpressWaiterBackground.png");
+  background-repeat: no-repeat;
+  background: size 100%;
+  bottom: 0;
+  left: 0;
+  overflow: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-size: cover;
+
+  .dashboardContent {
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fcefe8;
+    font-size: 45px;
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+  }
+}
+
+.name {
+  color: #ff3f4b;
+}
+
+.principalTitle {
+  font-size: 8rem;
+}
