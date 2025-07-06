@@ -36,10 +36,10 @@ O painel web do **Express Waiter** foi desenvolvido com **React** e **Next.js**,
 
 ```bash
 # Clone o repositório (ou vá para a pasta se já estiver no monorepo)
-git clone https://github.com/seu-usuario/express-waiter.git
+git clone https://github.com/Samuell-Rocha/FrontEnd-ExpressWaiter
 
 # Acesse a pasta do frontend web
-cd express-waiter/frontend-web
+cd FrontEnd-ExpressWaiter-main
 
 # Instale as dependências
 npm install
